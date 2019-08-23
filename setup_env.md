@@ -21,3 +21,8 @@ Exec="/home/dev/bin/FileZilla3/bin/filezilla" %f<br>
 Comment=Ftp client<br>
 Categories=Development;<br>
 Terminal=false
+#Docker commands
+docker-compose up -d app-auth-service app-emulator app-sms<br>
+docker-compose exec app-sms composer reset-database-test<br>
+docker-compose exec app-sms bin/console ca:cl --env=test<br>
+docker-compose exec app-sms composer test
