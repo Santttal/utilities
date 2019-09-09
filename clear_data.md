@@ -8,7 +8,8 @@
 * Documents
 * Downloads
 * Pictures
-* clear bash history (user and sudo)
+* clear bash history (user and sudo) history -c
+* docker data - docker system prune
 * Filezilla
 * zoom
 * Postman
