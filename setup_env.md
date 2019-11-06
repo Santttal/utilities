@@ -27,6 +27,6 @@ docker-compose exec app-sms composer reset-database-test<br>
 docker-compose exec app-sms bin/console ca:cl --env=test<br>
 docker-compose exec app-sms composer test
 
-#Env setup
+# Env setup
 ## Rotate windows on scroll 
 gsettings set org.gnome.shell.extensions.dash-to-dock scroll-action 'cycle-windows'
